@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #dde8dc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(70, 69, 69, 0.993);
+  width: 350px;
+}
+
+h2 {
+  text-align: center;
+  color: #1134f5;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.2s ease;
+
+}
+
+
+input:focus {
+  border-color: #1a73e8;
+  box-shadow: 0 4px 10px rgba(70, 69, 69, 0.993);
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  height: 16px;
+  display: block;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  transition: background-color 0.2s ease;
+}
+
+button:disabled {
+  background-color: #a5c0f0;
+  cursor: not-allowed;
+}
